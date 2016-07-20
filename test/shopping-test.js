@@ -39,9 +39,7 @@ describe('shopping', () => {
         been.
         called.
         with(
-          "pizza has been added to your cart.",
-          "Should have called `console.log()` with 'pizza has been added to your cart.'");
-
+          "pizza has been added to your cart.");
       console.log.reset()
     })
 
@@ -70,8 +68,7 @@ describe('shopping', () => {
         been.
         called.
         with(
-          `In your cart, you have socks at $${socksCost}, puppy at $${puppyCost}, iPhone at $${iPhoneCost}.`,
-          errorMessage
+          `In your cart, you have socks at $${socksCost}, puppy at $${puppyCost}, iPhone at $${iPhoneCost}.`
         );
       console.log.reset()
     });
@@ -118,8 +115,7 @@ describe('shopping', () => {
         been.
         called.
         with(
-          "That item is not in your cart.",
-          errorMessage
+          "That item is not in your cart."
         );
     });
   });
@@ -136,8 +132,7 @@ describe('shopping', () => {
         been.
         called.
         with(
-          "We don't have a credit card on file for you to place your order.",
-          errorMessage
+          "We don't have a credit card on file for you to place your order."
         );
 
       console.log.reset()
@@ -158,8 +153,7 @@ describe('shopping', () => {
         been.
         called.
         with(
-          `Your total cost is $${t}, which will be charged to the card 123.`,
-          errorMessage
+          `Your total cost is $${t}, which will be charged to the card 123.`
         );
 
       console.log.reset()
